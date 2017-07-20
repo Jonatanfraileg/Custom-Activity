@@ -15,12 +15,12 @@
 	"options": {
 		"salesforce": {
 			"serviceCloud": {
-				"username": "<jfraileg.evrcommisban@everis.com>",
-				"password": "<@Getafe12>",
+				"username": "jfraileg.evrcommisban@everis.com",
+				"password": "@Getafe12",
 				"loginUrl": "https://login.salesforce.com"
 			},
 			"marketingCloud": {
-				"jwtSecret": "<0x8a701ff1273b4e73b95b933a863ec912>"
+				"jwtSecret": "0x8a701ff1273b4e73b95b933a863ec912"
 			}
 		}
 	}
