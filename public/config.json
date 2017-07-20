@@ -7,8 +7,8 @@
 	"type": "RESTDECISION",
 	"lang": {
 		"en-US": {
-			"name": "Service Cloud Custom Split",
-			"description": "Custom Split activity that makes a decision based on data from Service Cloud"
+			"name": "Sales Cloud Custom Split",
+			"description": "Custom Split activity that makes a decision based on data from Sales Cloud"
 		}
 	},
 	"workflowApiVersion": "1.1",
@@ -19,21 +19,21 @@
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "8a701ff1-273b-4e73-b95b-933a863ec912"
 		},
 		"publish": {
 			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "8a701ff1-273b-4e73-b95b-933a863ec912"
 		},
 		"validate": {
 			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "8a701ff1-273b-4e73-b95b-933a863ec912"
 		}
 	},
 	"wizardSteps": [
@@ -75,7 +75,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
+			"customerKey": "8a701ff1-273b-4e73-b95b-933a863ec912",
 			"timeout": 90000
 		}
 	},
